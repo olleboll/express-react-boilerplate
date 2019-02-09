@@ -1,0 +1,34 @@
+{
+  "name": "Express/react/webpack Boilerplate",
+  "version": "1.0.0",
+  "description": "Easy setup to get started quickly",
+  "main": "index.js",
+  "author": "Olle Wahlström",
+  "license": "MIT",
+  "scripts": {
+    "watch": "NODE_ENV=dev webpack --watch",
+    "start": "node_modules/.bin/nodemon node index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "body-parser": "^1.18.3",
+    "css-loader": "^2.1.0",
+    "domready": "^1.0.8",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
